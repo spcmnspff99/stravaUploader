@@ -1,14 +1,14 @@
 # stravaUploader
 
-This is an alternative to stravalib if all you want to do is upload files.  Its much smaller and simpler than strava lib.
+This is an alternative to stravalib if all you want to do is upload files.  Its much smaller and simpler than stravalib.
 
 Usage:
 
-        from staravUploader import stravaUploader
+        from stravaUploader import stravaUploader
 
         su = stravaUlploader()
 
-        su.api_key = '<My Starva Access Token>'
+        su.api_key = '<My Strava Access Token>'
         su.format = 'gpx.gz'
         su.filename = 'some_gpx_file.gpx.gz'
         su.private = True
