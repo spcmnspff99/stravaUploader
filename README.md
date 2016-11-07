@@ -6,7 +6,7 @@ Example Usage:
 
         from stravaUploader import stravaUploader
 
-        su = stravaUlploader()
+        su = stravaUploader()
 
         su.api_key = '<My Strava Access Token>'
         su.format = 'gpx'
