@@ -16,7 +16,8 @@ Usage:
         if su.duplicate:
             print 'Strava thinks this activity is a duplicate'
         else:   
-            #just check the activityid property every second - when is not None strava is done processing the file
+            #just check the activityid property every second 
+            #when it's not None strava is done processing the file
             while True:
                 time.sleep(1)
                 if su.activityId is not None:
