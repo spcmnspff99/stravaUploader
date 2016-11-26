@@ -2,6 +2,8 @@
 
 This is an alternative to stravalib if all you want to do is upload files.  It's much smaller and simpler than stravalib. If you pass it a raw tcx or gpx file, it will gunzip the file before uploading.
 
+Requires: requests - pip install requests
+
 Example Usage:
 
         from stravaUploader import stravaUploader
